@@ -3,11 +3,11 @@
 @section('title', 'Home')
 
 @section('content')
-    <div class=" p-6 ">
-        <div class="flex justify-between  mb-2 flex-col rounded-xl shadow bg-white mb-7 pt-6">
+    <div class=" md:p-6 ">
+        <div class="flex justify-between flex-col rounded-xl shadow bg-white mb-7 ">
             <div class="left">
-                <h2 class="text-4xl font-semibold text-center mt-2">Welcome To {{ $homeData -> namaWebsite }} </h2>
-                <p class="text-xl text-center px-10 pt-2">{{ $homeData -> tagline }}</p>
+                <h2 class="text-4xl font-semibold text-center p-5 mt-2">Welcome To {{ $homeData -> namaWebsite }} </h2>
+                <p class="text-xl text-center px-5 md:px-10 pt-2">{{ $homeData -> tagline }}</p>
             </div>
             <div class="right flex  gap-2 md:gap-0 justify-center px-4 py-1  text-blue-500  rounded-3xl   w-max self-center my-10 ">
                 <p class="text-base md:text-xl f font-medium uppercase">{{ $homeData -> namaKelompok }} </p>  
@@ -22,7 +22,7 @@
             <div class="left w-full md:w-[27%] relative">
                 <div class="flex w-full h-[500px] md:h-[300px] overflow-x-auto snap-x snap-mandatory scroll-smooth hide-scrollbar overflow-hidden rounded-xl">
            
-                    <div id="slide1" class="flex-none w-full h-full snap-start bg-blue-500 overflow-hidden rounded-md">
+                    <div id="slide1" class="flex-none w-full h-full snap-start overflow-hidden rounded-md">
                         <img 
                             class="w-full h-full object-cover" 
                             src="{{ asset('images/hero.jpg') }}" 
@@ -30,7 +30,7 @@
                         >
                     </div>
          
-                    <div id="slide2" class="flex-none w-full h-full snap-start bg-blue-500 overflow-hidden rounded-md">
+                    <div id="slide2" class="flex-none w-full h-full snap-start overflow-hidden rounded-md">
                         <img 
                             class="w-full h-full object-cover" 
                             src="{{ asset('images/hero.jpg') }}" 
@@ -38,7 +38,7 @@
                         >
                     </div>
 
-                    <div id="slide3" class="flex-none w-full h-full snap-start bg-blue-500 overflow-hidden rounded-md">
+                    <div id="slide3" class="flex-none w-full h-full snap-start overflow-hidden rounded-md">
                         <img 
                             class="w-full h-full object-cover" 
                             src="{{ asset('images/hero.jpg') }}" 
@@ -46,7 +46,7 @@
                         >
                     </div>
 
-                    <div id="slide4" class="flex-none w-full h-full snap-start bg-blue-500 overflow-hidden rounded-md">
+                    <div id="slide4" class="flex-none w-full h-full snap-start overflow-hidden rounded-md">
                         <img 
                             class="w-full h-full object-cover" 
                             src="{{ asset('images/hero.jpg') }}" 
@@ -54,7 +54,7 @@
                         >
                     </div>
 
-                    <div id="slide5" class="flex-none w-full h-full snap-start bg-blue-500 overflow-hidden rounded-md">
+                    <div id="slide5" class="flex-none w-full h-full snap-start overflow-hidden rounded-md">
                         <img 
                             class="w-full h-full object-cover" 
                             src="{{ asset('images/hero.jpg') }}" 

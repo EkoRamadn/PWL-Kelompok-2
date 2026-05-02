@@ -7,9 +7,10 @@
         <h2 class="text-2xl font-semibold mb-2">Blog </h2>
         <p class="text-gray-600">Ini halaman Blog</p>
     </div> --}}
-    <div class="absolute w-screen left-0 right-0 border-y border-gray-300 mt-10">
+
+    <div class=" border-y border-gray-300 mt-10">
         <div
-            class="mx-auto outline-1 max-w-7xl outline-gray-300  flex flex-col md:flex-row divide-y overflow-x-scroll divide-gray-300 md:divide-y-0 md:divide-x">
+            class="p-6 mx-auto outline-1 max-w-7xl outline-gray-300  flex flex-col md:flex-row divide-y overflow-x-scroll divide-gray-300 md:divide-y-0 md:divide-x">
             @foreach ($articles as $item)
                 <div class="flex  p-6 flex-col flex-none md:max-w-96">
                     <img class="" src="{{ asset($item['image']) }}">

@@ -13,7 +13,7 @@ class AboutController extends Controller
             ['nama' => 'Handika Rado Arganata', 'nim' => '24104410051', 'peran' => 'About Page Specialist. Build AboutController terpisah untuk manage logic halaman profil, slicing view About, dan manage struktur data anggota.', 'foto' => '2.png'],
             ['nama' => 'Ahmad Yusron Fadil', 'nim' => '24104410050', 'peran' => 'Blog Module Developer. Build BlogController terpisah untuk manage logic artikel, slicing view Blog, dan implementasi render data artikel secara dinamis.', 'foto' => '3.png'],
             ['nama' => 'Firlian Firman Syah', 'nim' => '24104410057', 'peran' => 'Contact Page Specialist. Build ContactController terpisah untuk manage logic halaman kontak, slicing interface Contact, dan handle flow data informasi kontak.', 'foto' => '4.png'],
-            ['nama' => "Muhammad Naufal Abbad Mu' afa Rizqullah", 'nim' => '24104410049', 'peran' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer et. ', 'foto' => '5.png']
+            ['nama' => "Muhammad Naufal Abbad Mu' afa Rizqullah", 'nim' => '24104410049', 'peran' => 'Home Page Specialist. Build HomeController terpisah untuk manage logic landing page, slicing view home, dan implementasi desain UI/UX halaman depan.', 'foto' => '5.png']
         ];
 
         return view('about', compact('arrayName'));

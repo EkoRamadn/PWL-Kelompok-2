@@ -9,7 +9,7 @@
     <div class="flex flex-col gap-3 mx-auto max-w-3xl">
         @foreach ($arrayName as $test)
             <div class="bg-white p-5 rounded-2xl flex items-center gap-5 shadow">
-                <img src="{{ asset('/photo-profile/' . $test['photo']) }}" alt="" class="w-24 h-24 rounded-full">
+                <img src="{{ asset('/photo-profile/' . $test['photo']) }}" alt="" class="w-24 h-24 rounded-xl">
                 <div class="flex flex-col">
                     <p class="text-lg font-bold">{{ $test['name'] }}</p>
                     <p class="text-sm">({{ $test['nim'] }})</p>

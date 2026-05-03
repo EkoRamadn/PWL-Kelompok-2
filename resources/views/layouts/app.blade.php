@@ -26,7 +26,7 @@
             </label>
 
             <nav
-                class="transition-all  duration-300 hidden peer-checked:flex flex-col absolute top-16 left-0 w-full bg-blue-800 md:static md:flex md:flex-row md:w-auto md:space-x-4 md:bg-transparent z-50">
+                class="transition-all  duration-300 hidden peer-checked:flex flex-col absolute top-16 left-0 w-full bg-[#DA291C] md:static md:flex md:flex-row md:w-auto md:space-x-4 md:bg-transparent z-50">
                 <a href="/" class="block px-4 py-2 hover:underline">Home</a>
                 <a href="/about" class="block px-4 py-2 hover:underline">About</a>
                 <a href="/blog" class="block px-4 py-2 hover:underline">Blog</a>
